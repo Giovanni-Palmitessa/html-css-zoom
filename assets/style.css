@@ -107,3 +107,18 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+.icons-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    color: red;
+    font-size: 12px;background-color: lightslategray;
+    padding: 1.5rem;
+    font-weight: bold;
+
+
+}
