@@ -72,6 +72,7 @@ img{
     right: 0;
     z-index: 1;
     display: flex;
+    justify-content: space-between;
 }
 
 .icons-left{
@@ -99,4 +100,10 @@ img{
 
 .chevron{
     font-size: 10px;
+}
+
+.icons-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
