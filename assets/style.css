@@ -8,6 +8,7 @@ html{
     font-family: sans-serif;
     background-color: black;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     position: relative;
 }
 
@@ -60,4 +61,42 @@ img{
     font-size: 12px;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-down{
+    height: 4rem;
+    background-color: #363e48;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+}
+
+.icons-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    padding-right: 10px;
+}
+
+.icons-left .icon{
+    padding-left: 10px;
+}
+
+.icon-big{
+    font-size: 28px;
+    padding: 5px;
+}
+
+.cmd{
+    font-size: 12px;
+}
+
+.chevron{
+    font-size: 10px;
 }
