@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: sans-serif;
+    background-color: black;
+    padding-top: 3rem;
+}
+
+.container{
+    max-width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image{
+    flex-basis: 0 0 calc(100% / 7);
+}
+
+img{
+    width: 100%;
+}
