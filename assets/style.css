@@ -82,12 +82,14 @@ img{
 }
 
 .icon{
-    padding-right: 10px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 .icons-left .icon{
     padding-left: 10px;
 }
+
 
 .icon-big{
     font-size: 28px;
@@ -119,5 +121,8 @@ img{
     font-size: 12px;background-color: lightslategray;
     padding: 1.5rem;
     font-weight: bold;
+}
 
+.green{
+    color: green;
 }
