@@ -17,12 +17,17 @@ a{
     text-decoration: none;
 }
 
+main{
+    height: calc(100vh - 4rem - 4rem);
+    overflow-y: auto;
+}
 .container{
     max-width: 1400px;
     margin-inline: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.2rem;
+    gap: 0.4rem;
+    
 }
 
 .fix-top{
@@ -50,7 +55,8 @@ a{
 
 
 img{
-    width: 197px;
+    width: 190px;
+    display: block;
 }
 
 .name{
